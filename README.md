@@ -11,9 +11,12 @@ Atividade de desenvolvimento de formulário dinâmico com Angular.
 - os campos de perguntas podem ser personalizados, e adicionados ou removidos de forma dinâmica.
 - no exemplo desenvolvido:
   
-  os dados são passados de forma mockada, mas esse template poderia estar integrado a um backend que envia dados de um db;
+  - os dados são passados de forma mockada, mas esse template poderia estar integrado a um backend que envia dados de um db;
   
-  possui uma validação simples de obrigatoriedade dos campos para enviar o formulário, mas poderíamos ir além no quesito validação dos campos (criar diferentes regras), pois o Angular oferece grande suporte.
+  - possui uma validação simples de obrigatoriedade dos campos para enviar o formulário, mas poderíamos ir além no quesito validação dos campos (criar diferentes regras), pois o Angular oferece grande suporte.
+  - o forms criado simula um formulário de inscrição para um emprego, voltado para super herois. nele contém os campos: first name, email, bravery hanking e um botão para salvar as informações, que retorna-as em formato json na tela:
+  - ![print aplicação](./assets/img1.png)
+  
 ### Angular app
 - é uma SPA (single-page app)
 
